@@ -1,46 +1,54 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;700&display=swap');
+
+h1 {
+    font-size: 70px;
+    font-weight: 200;
+    text-transform: uppercase;
+    border-top: 5px solid;
 }
 
 body {
+    background-color: #F69680;
+    color: #2E1263;
+    font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+#container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: salmon;
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: overline;
-    margin-top: 30px;
-    color: purple;
-}
-
-.image-wrapper {
-    display: flex;
-    align-items: center;
-    height: auto;
-    width: 40%;
-    overflow: hidden;
-    margin: 40px 0;
-    border-radius: 10%;
+    justify-content: center;
+    height: 100vh;
 }
 
 img {
-    height: auto;
-    width: 100%
+    height: 500px;
+    border-radius: 10%;
 }
 
 button {
-    font-family: Arial, Helvetica, sans-serif;
-    color: purple;
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: #F69680;
+    color: #2E1263;
+    font-size: 14;
+    text-align: center;
+    border: 1px solid #2E1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    outline: none;
+    
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #2E1263;
+    color: #F69680;
+    text-decoration: underline;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-    color: purple;
+    font-size: 20px;
 }
-
