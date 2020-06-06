@@ -1,2 +1,2 @@
 # Practice-Picture-Swapping
-A simple homepage I used to practice some of my basic coding skills. It showcases different images.
+A practice project I used to review some fundamentals using a course.
